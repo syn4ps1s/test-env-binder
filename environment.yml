@@ -1,3 +1,9 @@
-alabaster==0.7.12
-argh==0.26.2
-argon2-cffi==20.1.0
+name: notebook
+channels:
+  - conda-forge
+dependencies:
+- pip
+pip:
+  - alabaster==0.7.12 
+  - argh==0.26.2
+  - argon2-cffi==20.1.0
